@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 52.178 s <<< FAILURE! - in TestSuite
+org.wipro.TestCaseDemo.Test2.Testloginbutton[Admin, admin123, Dashboard](1)  Time elapsed: 3.305 s  <<< FAILURE!
+java.lang.AssertionError: expected [Dashboard] but found [Pizarra de pendientes]
+	at org.wipro.TestCaseDemo.Test2.Testloginbutton(Test2.java:39)
+
+org.wipro.TestCaseDemo.Test3.TestMenu  Time elapsed: 3.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [Leave] but found [Pizarra de pendientes]
+	at org.wipro.TestCaseDemo.Test3.TestMenu(Test3.java:28)
+
